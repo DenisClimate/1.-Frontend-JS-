@@ -1,0 +1,80 @@
+
+.g700 {
+    font-family: g700;
+}
+.g800 {
+    font-family: g800;
+}
+.g300 {
+    font-family: g300;
+}
+.g400 {
+    font-family: g400;
+}
+.g600 {
+    font-family: g600;
+}
+@font-face {
+    font-family: g700;
+    src: url(/font/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: g800;
+    src: url(/font/Gilroy-Extrabold.ttf);
+}
+@font-face {
+    font-family: g300;
+    src: url(/font/Gilroy-Light.ttf);
+}
+@font-face {
+    font-family: g400;
+    src: url(/font/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: g600;
+    src: url(/font/Gilroy-Semibold.ttf);
+}
+/**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
+.hov {transition: 0.3s;}
+.hov:hover {background-color: #d07b0c!important;}
+.hov_menu {transition: 0.2s;}
+.hov_menu:hover {background-color: #;color: #;}
+.hov_slider {transition: 0.5s;cursor: pointer;}
+.hov_slider:hover {background-color: #D7E5F2!important;}
+@keyframes animat1 {
+    0% {
+     transform: translateY(-0.3%);
+    }
+    100% {
+     transform: translateY(0);
+    }
+}
+.anim_1 {animation: animat1 0.4s forwards;}
+@keyframes animat2 {
+    0% {
+     transform: translateX(-0.7%);
+    }
+    100% {
+     transform: translateY(0);
+    }
+}
+.anim_2 {animation: animat2 0.2s forwards;}
+/**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
+li{list-style: none;}a{text-decoration: none;}button
+{cursor: pointer;border: 0;}*{padding: 0;margin: 0;
+background-repeat: no-repeat;
+grid-template-rows: auto;font-size: inherit;font-weight: inherit;
+color: inherit;line-height: inherit;font-family: inherit;
+-webkit-box-sizing: border-box;-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;box-sizing: border-box;
+scroll-behavior: smooth;}
+.wrapper{max-height: 100%;overflow: hidden;}
+/**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
+.flex{display: flex;}.block{display: block;}
+.center{align-items: center;}.space{justify-content: space-between;}
+.baseline{justify-content: baseline;}.txtbig{text-transform: uppercase;}
+.txtcenter{text-align: center;}.none{display: none;}
+.right{float: right;}.left{float: left;}.point{cursor:pointer;}
+.line{display: flex;align-items: center;justify-content: space-between;}
+.area{grid-column: 2;grid-template-areas: "area";}
+/**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
